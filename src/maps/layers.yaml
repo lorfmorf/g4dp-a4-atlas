@@ -55,3 +55,39 @@ layers:
       line-color: "#2166ac"
       line-width: 2
     legend: { label: Bike lanes, color: "#2166ac", shape: line }
+
+  - id: restauraunt-inspections
+    type: circle
+    label: Restaurant inspections
+    visible: false
+    source:
+      type: geojson
+      url: "/data/restaurant_inspections.geojson"
+    paint:
+      circle-radius: 3
+      circle-color: "#c0642f"
+    legend: { label: Restaurant inspections, color: "#c0642f", shape: circle }
+
+  - id: subway-lines
+    type: line
+    label: Subway lines
+    visible: false
+    source:
+      type: geojson
+      url: "/data/subway_lines.geojson"
+    paint:
+      line-color: "#2166ac"
+      line-width: 2
+    legend: { label: Subway lines, color: "#2166ac", shape: line }
+
+  - id: subway-stations
+    type: circle
+    label: Subway stations
+    visible: false
+    source:
+      type: geojson
+      url: "/data/subway_stations.geojson"
+    paint:
+      cirlce-color: "#4caf50"
+      circle-radius: 5
+    legend: { label: Subway stations, color: "#4caf50", shape: circle}
