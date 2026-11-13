@@ -25,9 +25,9 @@ layers:
       type: geojson
       url: "/data/restaurant_inspections.geojson"
     paint:
-      circle-radius: 3
-      circle-color: "#c0642f"
-    legend: { label: Restaurant inspections, color: "#c0642f", shape: circle }
+      circle-radius: 4
+      circle-color: "f54927"
+    legend: { label: Restaurant inspections, color: "#f54927", shape: circle }
 
   - id: subway-lines
     type: line
@@ -37,9 +37,9 @@ layers:
       type: geojson
       url: "/data/subway_lines.geojson"
     paint:
-      line-color: "#2166ac"
-      line-width: 2
-    legend: { label: Subway lines, color: "#2166ac", shape: line }
+      line-color: "#0051FF"
+      line-width: 3.5
+    legend: { label: Subway lines, color: "#0051FF", shape: line }
 
   - id: subway-stations
     type: circle
@@ -49,6 +49,6 @@ layers:
       type: geojson
       url: "/data/subway_stations.geojson"
     paint:
-      circle-color: "#4caf50"
-      circle-radius: 5
-    legend: { label: Subway stations, color: "#4caf50", shape: circle}
+      circle-color: "#FFC300"
+      circle-radius: 7
+    legend: { label: Subway stations, color: "#FFC300", shape: circle}
