@@ -5,9 +5,9 @@
 type: map
 id: full-page
 config:
-  mapStyle: "https://tiles.openfreemap.org/styles/positron"
-  center: [-73.9654, 40.7829]
-  zoom: 12.5
+  mapStyle: "/style.json"
+  center: [-73.82596, 40.75982]
+  zoom: 14.24
 
 # Where the legend sits: top-left (default), top-right, bottom-left, bottom-right.
 legend:
