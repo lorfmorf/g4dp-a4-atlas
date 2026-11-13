@@ -6,8 +6,8 @@ type: map
 id: full-page
 config:
   mapStyle: "/style.json"
-  center: [-73.82596, 40.75982]
-  zoom: 14.24
+  center: [-73.99171, 40.718]
+  zoom: 13.95
 
 # Where the legend sits: top-left (default), top-right, bottom-left, bottom-right.
 legend:
