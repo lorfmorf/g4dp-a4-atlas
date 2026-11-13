@@ -26,7 +26,7 @@ layers:
       url: "/data/restaurant_inspections.geojson"
     paint:
       circle-radius: 4
-      circle-color: "f54927"
+      circle-color: "#f54927"
     legend: { label: Restaurant inspections, color: "#f54927", shape: circle }
 
   - id: subway-lines
