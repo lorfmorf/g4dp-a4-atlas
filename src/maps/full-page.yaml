@@ -5,7 +5,7 @@
 type: map
 id: full-page
 config:
-  mapStyle: "/style.json"
+  mapStyle: "/newstyle.json"
   center: [-73.99171, 40.718]
   zoom: 13.95
 
