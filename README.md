@@ -36,7 +36,7 @@ tells you which you have) and [Git](https://git-scm.com/).
    npm run dev
    ```
 
-4. Open the address it prints (`http://localhost:4321/astro-maplibre-template/`
+4. Open the address it prints (`http://localhost:4321/g4dp-a4-atlas/`
    until you change the base, below). Edit a file, save, and the page reloads.
 
 ## Commands
@@ -314,5 +314,5 @@ To check the finished site before you push, run `npm run build` and then
 | `visible: false` | `visible: false` (map) or `layout: { visibility: none }` (story) |
 | `persist: false` on a step's layer | `layers: { show: […], hide: […] }` on chapters |
 | `media:` / `position:` on a step | `image:` / `alignment:` on a chapter |
-| Links written with `/astro-maplibre-template/…` and `update-paths.js` | `base` in `astro.config.mjs`, `url()` for links |
+| Links written with `/g4dp-a4-atlas/…` and `update-paths.js` | `base` in `astro.config.mjs`, `url()` for links |
 | MapTiler / Mapillary / Protomaps API keys | Keyless OpenFreeMap basemaps |

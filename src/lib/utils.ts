@@ -40,7 +40,7 @@ export function dateRange(startDate: Date, endDate?: Date | string): string {
 
 /**
  * A link to a page of this site that works under the GitHub Pages `base`
- * (astro.config.mjs): `url("inline_maps")` → "/astro-maplibre-template/inline_maps".
+ * (astro.config.mjs): `url("inline_maps")` → "/g4dp-a4-atlas/inline_maps".
  * Use it for every internal link instead of writing the repository name.
  */
 export function url(path = "") {
